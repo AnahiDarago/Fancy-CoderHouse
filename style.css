@@ -1,0 +1,97 @@
+
+.body {
+    font-family: 'Montserrat', sans-serif;
+}
+.nav-item {
+    font-size: 22px;
+}
+
+.nav-item{
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.marca {
+width: 150px;
+}
+
+.colorMostaza {
+    color: #D6A418;
+}
+.colorGrisOscuro {
+    color: #3C3C3B;
+}
+.tituloEncabezado {
+    font-size: 36px;
+    font-weight: bold;
+    color: #D6A418;
+}
+.subtituloProducto{
+    font-size: 28px;
+    font-weight: bold;
+    color: #3C3C3B;
+}
+/* -------------BANNER HOME---------------- */
+.tituloHUno {
+    font-size: 48px;
+    font-weight: bold;
+}
+.descripcionBanner {
+    font-size: 22px;
+}
+.imagenFondo {
+background-image: url(../imagenes/fondoRosa.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+.bgDorado {
+    background-color: rgb(190, 167, 36);
+}
+.cBlanco {
+    color: rgb(255, 255, 255);
+}
+
+.macaronsRosa{
+    width: 90%;
+}
+
+/* -------------FIN BANNER HOME----------------- */
+
+/* ------------ TIENDA (PRIMERA PARTE) ----------------- */
+
+
+.imagenTeHebras {
+    width: 70%;
+}
+.tituloProductoTienda {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* DELIVERY */
+
+.contenedorCupcake{
+background-color: #FBFBFB;
+height: 300px;
+}
+
+.imagenProducto {
+    transform: translate(0%, -50%);
+}
+.contenedorImagenProducto {
+    height: 120px;
+}
+.precioProducto {
+    font-size: 14px;
+    font-weight: bold;
+}
+.nombreProducto {
+    font-size: 18px;
+    font-weight: bold;
+}
+.imagenMacarons {
+    margin-right: 15%;
+}
+
+/* FIN MAIN-SECTION MACARONS */

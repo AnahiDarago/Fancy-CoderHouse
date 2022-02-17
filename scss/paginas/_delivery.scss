@@ -1,0 +1,23 @@
+.sectionDulzuras {
+    .contenedorCupcake{
+        background-color: #FBFBFB;
+        height: 300px;
+        
+        .contenedorImagenProducto {
+            height: 120px;
+            }
+            .imagenProducto {
+            transform: translate(0%, -50%);
+            }
+        }
+        .contenedorInfoProducto {
+            .precioProducto {
+                font-size: map-get($tamañosTipo, tipografiaXS);
+                font-weight: bold;
+            }
+            .nombreProducto {
+                font-size: map-get($tamañosTipo , tipografiaS);
+                font-weight: bold;
+            }
+        }
+    }

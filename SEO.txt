@@ -1,0 +1,4 @@
+Se modificaron los title
+Se agregaron keywords por paginas
+Ser agregaron description por paginas
+Se realizo un SiteMap (de una URL que no es la ultima version, por motivos particulares del proyecto, posteriormente se actualizara)

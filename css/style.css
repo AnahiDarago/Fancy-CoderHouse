@@ -1,0 +1,64 @@
+.tituloEncabezado {
+  font-size: 36px;
+  font-weight: bold;
+  color: #D6A418; }
+
+.body {
+  font-family: 'Montserrat', sans-serif; }
+
+.subtituloProducto {
+  font-size: 28px;
+  font-weight: bold;
+  color: #3C3C3B; }
+
+header .nav-item {
+  font-size: 22px;
+  padding-left: 1%;
+  padding-right: 1%; }
+
+header .marca {
+  width: 150px; }
+
+.tituloHUno {
+  font-size: 48px;
+  font-weight: bold; }
+
+.descripcionBanner {
+  font-size: 22px; }
+
+.imagenFondo {
+  background-image: url(../imagenes/fondoRosa.jpg);
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.bgDorado {
+  background-color: #bea724; }
+
+.cBlanco {
+  color: white; }
+
+.macaronsRosa {
+  width: 90%; }
+
+.imagenTeHebras {
+  width: 70%; }
+
+.tituloProductoTienda {
+  font-size: 24px;
+  font-weight: bold; }
+
+.sectionDulzuras .contenedorCupcake {
+  background-color: #FBFBFB;
+  height: 300px; }
+  .sectionDulzuras .contenedorCupcake .contenedorImagenProducto {
+    height: 120px; }
+  .sectionDulzuras .contenedorCupcake .imagenProducto {
+    transform: translate(0%, -50%); }
+
+.sectionDulzuras .contenedorInfoProducto .precioProducto {
+  font-size: 14px;
+  font-weight: bold; }
+
+.sectionDulzuras .contenedorInfoProducto .nombreProducto {
+  font-size: 18px;
+  font-weight: bold; }

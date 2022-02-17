@@ -1,0 +1,11 @@
+.body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.tituloEncabezado {
+    @extend %tituloEncabezadoPagina;
+}
+.subtituloProducto{
+    @include subtituloProductoSecciones (28px, bold, $colorPrincipal)
+}
+

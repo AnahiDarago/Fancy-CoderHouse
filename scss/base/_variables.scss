@@ -1,0 +1,22 @@
+$colorPrincipal:#3C3C3B;
+$colorAcento:#D6A418;
+
+%tituloEncabezadoPagina {
+    font-size: 36px;
+    font-weight: bold;
+    color: $colorAcento;
+}
+
+@mixin subtituloProductoSecciones ($size, $weight, $color) {
+    font-size: $size;
+    font-weight: $weight;
+    color: $color;
+}
+
+$tamañosTipo: (
+    tipografiaXS: 14px,
+    tipografiaS: 18px,
+    tipografiaM: 22px,
+    tipografiaL: 24px,
+    tipografiaXL: 36px,
+);
