@@ -19,6 +19,17 @@ header .nav-item {
 header .marca {
   width: 150px; }
 
+.iconoFooter {
+  font-size: 24px;
+  color: white; }
+
+.textoPie {
+  color: white; }
+
+.fondoFooter {
+  background-color: #3C3C3B;
+  height: 100px; }
+
 .tituloHUno {
   font-size: 48px;
   font-weight: bold; }
