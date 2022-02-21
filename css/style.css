@@ -1,15 +1,39 @@
 .tituloEncabezado {
-  font-size: 36px;
+  font-size: 38px;
   font-weight: bold;
-  color: #D6A418; }
+  color: #3C3C3B; }
 
 .body {
-  font-family: 'Montserrat', sans-serif; }
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; }
 
 .subtituloProducto {
   font-size: 28px;
   font-weight: bold;
   color: #3C3C3B; }
+
+.tituloProductoTiendaEvento {
+  font-size: 24px;
+  font-weight: bold; }
+
+.bottonVerMas {
+  border-color: #D6A418;
+  color: #D6A418;
+  font-weight: 600; }
+
+.bottonComprar {
+  background-color: #D6A418;
+  color: white;
+  font-weight: 600; }
+
+.icon {
+  color: #D6A418;
+  font-size: 24px; }
+
+.productoDescripcion {
+  font-size: 18px; }
 
 header .nav-item {
   font-size: 22px;
@@ -29,6 +53,9 @@ header .marca {
 .fondoFooter {
   background-color: #3C3C3B;
   height: 100px; }
+
+.contenedorFooter {
+  margin-top: auto; }
 
 .tituloHUno {
   font-size: 48px;
@@ -54,10 +81,6 @@ header .marca {
 .imagenTeHebras {
   width: 70%; }
 
-.tituloProductoTienda {
-  font-size: 24px;
-  font-weight: bold; }
-
 .sectionDulzuras .contenedorCupcake {
   background-color: #FBFBFB;
   height: 300px; }
@@ -73,3 +96,20 @@ header .marca {
 .sectionDulzuras .contenedorInfoProducto .nombreProducto {
   font-size: 18px;
   font-weight: bold; }
+
+.descripcionContacto {
+  font-size: 24px; }
+
+#floatingTextarea {
+  height: 100px; }
+
+.datosContacto {
+  font-size: 18px; }
+
+.imagenBox {
+  width: 70%;
+  border-radius: 10px; }
+
+.subtituloContiene {
+  font-weight: bold;
+  font-size: 22px; }

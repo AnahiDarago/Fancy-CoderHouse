@@ -1,0 +1,9 @@
+.descripcionContacto {
+    font-size: map-get($tamañosTipo, tipografiaL);
+}
+#floatingTextarea {
+    height: 100px;
+}
+.datosContacto {
+    font-size: map-get($tamañosTipo, tipografiaS);
+}

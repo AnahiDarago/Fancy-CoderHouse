@@ -1,11 +1,35 @@
 .body {
     font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 .tituloEncabezado {
     @extend %tituloEncabezadoPagina;
 }
 .subtituloProducto{
-    @include subtituloProductoSecciones (28px, bold, $colorPrincipal)
+    @include subtituloProductoSecciones (28px, bold, $colorPrincipal);
 }
 
+.tituloProductoTiendaEvento {
+    font-size: 24px;
+    font-weight: bold;
+}
+.bottonVerMas {
+    border-color: $colorAcento;
+    color: $colorAcento;
+    font-weight: 600;
+}
+.bottonComprar {
+    background-color: $colorAcento;
+    color: white;
+    font-weight: 600;
+}
+.icon {
+    color: $colorAcento;
+    font-size: 24px;
+}
+.productoDescripcion {
+    font-size: map-get($tamañosTipo, tipografiaS);
+}

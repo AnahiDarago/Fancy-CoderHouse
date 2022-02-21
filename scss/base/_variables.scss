@@ -2,9 +2,9 @@ $colorPrincipal:#3C3C3B;
 $colorAcento:#D6A418;
 
 %tituloEncabezadoPagina {
-    font-size: 36px;
+    font-size: 38px;
     font-weight: bold;
-    color: $colorAcento;
+    color: $colorPrincipal;
 }
 
 @mixin subtituloProductoSecciones ($size, $weight, $color) {

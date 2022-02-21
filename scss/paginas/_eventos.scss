@@ -1,0 +1,8 @@
+.imagenBox {
+    width: 70%;
+    border-radius: 10px;
+}
+.subtituloContiene {
+    font-weight: bold;
+    font-size: map-get($tamañosTipo , tipografiaM );
+}
