@@ -35,6 +35,9 @@
 .productoDescripcion {
   font-size: 18px; }
 
+.contenedorCard {
+  border-radius: 12px; }
+
 header .nav-item {
   font-size: 22px;
   padding-left: 1%;
@@ -107,8 +110,8 @@ header .marca {
   font-size: 18px; }
 
 .imagenBox {
-  width: 70%;
-  border-radius: 10px; }
+  width: 80%;
+  border-radius: 12px; }
 
 .subtituloContiene {
   font-weight: bold;

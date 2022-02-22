@@ -33,3 +33,7 @@
 .productoDescripcion {
     font-size: map-get($tamañosTipo, tipografiaS);
 }
+
+.contenedorCard {
+    border-radius: 12px;
+}
