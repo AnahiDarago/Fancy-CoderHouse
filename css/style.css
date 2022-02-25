@@ -69,8 +69,8 @@ header .marca {
   font-size: 22px; }
 
 .imagenFondo {
-  height: 1600px;
-  background-image: url(../imagenes/fondoRosaDos.jpg);
+  height: auto;
+  background-image: url(../imagenes/fondoRosaTres.jpg);
   background-size: cover;
   background-repeat: no-repeat; }
 
