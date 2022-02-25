@@ -20,6 +20,7 @@
 
 .bottonVerMas {
   border-color: #D6A418;
+  background-color: white;
   color: #D6A418;
   font-weight: 600; }
 
@@ -68,7 +69,8 @@ header .marca {
   font-size: 22px; }
 
 .imagenFondo {
-  background-image: url(../imagenes/fondoRosa.jpg);
+  height: 1600px;
+  background-image: url(../imagenes/fondoRosaDos.jpg);
   background-size: cover;
   background-repeat: no-repeat; }
 
@@ -81,23 +83,69 @@ header .marca {
 .macaronsRosa {
   width: 90%; }
 
+.descripcionTitulo {
+  font-size: 22px; }
+
+.contenedorFondoProductoCard {
+  background-color: #FBFBFB;
+  height: 200px; }
+
+/* .contenedorIconHome {
+    width: 100px;
+    background-color: rgb(75, 197, 197);
+} */
+.iconHome {
+  width: 150px; }
+
+.descripcionIcon {
+  font-weight: bold;
+  font-size: 18px; }
+
+.imagenAvatar {
+  height: 240px;
+  transform: translate(0%, -60%); }
+
+.descripcionAvatar {
+  font-size: 18px; }
+
+.imagenEstrellas {
+  width: 150px; }
+
 .imagenTeHebras {
   width: 70%; }
 
-.sectionDulzuras .contenedorCupcake {
+.imagenCafe {
+  width: 100%; }
+
+.sectionCupcakePanificados .contenedorFondoProducto {
   background-color: #FBFBFB;
   height: 300px; }
-  .sectionDulzuras .contenedorCupcake .contenedorImagenProducto {
+  .sectionCupcakePanificados .contenedorFondoProducto .contenedorImagenProducto {
     height: 120px; }
-  .sectionDulzuras .contenedorCupcake .imagenProducto {
+  .sectionCupcakePanificados .contenedorFondoProducto .imagenProducto {
     transform: translate(0%, -50%); }
 
-.sectionDulzuras .contenedorInfoProducto .precioProducto {
+.sectionCupcakePanificados .contenedorInfoProducto .precioProducto {
   font-size: 14px;
   font-weight: bold; }
 
-.sectionDulzuras .contenedorInfoProducto .nombreProducto {
+.sectionCupcakePanificados .contenedorInfoProducto .nombreProducto {
   font-size: 18px;
+  font-weight: bold; }
+
+.sectionPackDulzuras .contenedorFondoProductoHorizontal {
+  background-color: #FBFBFB;
+  height: 250px; }
+
+.contenedorInfoProductoDulzuras .nombreProductoDulzuras {
+  font-size: 28px;
+  font-weight: bold; }
+
+.contenedorInfoProductoDulzuras .descripcionProductoDulzuras {
+  font-size: 18px; }
+
+.contenedorInfoProductoDulzuras .precioProducto {
+  font-size: 14px;
   font-weight: bold; }
 
 .descripcionContacto {

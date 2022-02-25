@@ -1,11 +1,11 @@
-.sectionDulzuras {
-    .contenedorCupcake{
+.sectionCupcakePanificados {
+    .contenedorFondoProducto{
         background-color: #FBFBFB;
         height: 300px;
         
         .contenedorImagenProducto {
             height: 120px;
-            }
+        }
             .imagenProducto {
             transform: translate(0%, -50%);
             }
@@ -21,3 +21,25 @@
             }
         }
     }
+
+
+.sectionPackDulzuras {
+    .contenedorFondoProductoHorizontal {
+        background-color: #FBFBFB;
+        height: 250px;
+    }
+}
+
+.contenedorInfoProductoDulzuras {
+    .nombreProductoDulzuras {
+        font-size: map-get($tamañosTipo , tipografiaLB);
+        font-weight: bold;
+    }
+    .descripcionProductoDulzuras {
+        font-size: map-get($tamañosTipo , tipografiaS);
+    }
+    .precioProducto {
+        font-size: map-get($tamañosTipo, tipografiaXS);
+        font-weight: bold;
+    }
+}

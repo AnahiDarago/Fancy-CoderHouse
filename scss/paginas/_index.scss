@@ -5,11 +5,15 @@
 .descripcionBanner {
     font-size: 22px;
 }
+
 .imagenFondo {
-background-image: url(../imagenes/fondoRosa.jpg);
-background-size: cover;
-background-repeat: no-repeat;
+    height:1600px;
+    background-image: url(../imagenes/fondoRosaDos.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
 }
+
+
 
 .bgDorado {
     background-color: rgb(190, 167, 36);
@@ -21,4 +25,32 @@ background-repeat: no-repeat;
 .macaronsRosa{
     width: 90%;
 }
+.descripcionTitulo {
+    font-size: map-get($tamañosTipo, tipografiaM );
+}
+.contenedorFondoProductoCard {
+    background-color: #FBFBFB;
+    height: 200px;
+}
+/* .contenedorIconHome {
+    width: 100px;
+    background-color: rgb(75, 197, 197);
+} */
 
+.iconHome {
+    width: 150px;
+}
+.descripcionIcon {
+    font-weight: bold;
+    font-size: map-get($tamañosTipo, tipografiaS);
+}
+.imagenAvatar {
+    height: 240px;
+    transform: translate(0%, -60%);
+}
+.descripcionAvatar {
+    font-size: map-get($tamañosTipo, tipografiaS);
+}
+.imagenEstrellas {
+    width: 150px;
+}
