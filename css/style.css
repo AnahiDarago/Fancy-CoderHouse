@@ -102,8 +102,8 @@ header .marca {
   font-size: 18px; }
 
 .imagenAvatar {
-  height: 240px;
-  transform: translate(0%, -60%); }
+  height: 230px;
+  transform: translate(0%, -50%); }
 
 .descripcionAvatar {
   font-size: 18px; }
