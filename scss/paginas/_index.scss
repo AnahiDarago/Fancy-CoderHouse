@@ -1,10 +1,12 @@
 .tituloHUno {
-    font-size: 48px;
+    font-size:map-get($tamañosTipo, tipografiaLC);
     font-weight: bold;
 }
+
 .descripcionBanner {
-    font-size: 22px;
+    font-size:map-get($tamañosTipo, tipografiaS);
 }
+
 
 .imagenFondo {
     width: 100%;
@@ -12,9 +14,6 @@
     background-size:contain;
     background-repeat: no-repeat;
 }
-
-
-
 .bgDorado {
     background-color: rgb(190, 167, 36);
 }
@@ -25,17 +24,11 @@
 .macaronsRosa{
     width: 90%;
 }
-.descripcionTitulo {
-    font-size: map-get($tamañosTipo, tipografiaM );
-}
+
 .contenedorFondoProductoCard {
     background-color: #FBFBFB;
     height: 200px;
 }
-/* .contenedorIconHome {
-    width: 100px;
-    background-color: rgb(75, 197, 197);
-} */
 
 .iconHome {
     width: 150px;
@@ -53,4 +46,13 @@
 }
 .imagenEstrellas {
     width: 150px;
+}
+
+@include mediaQueryTablet {
+    .tituloHUno {
+        font-size: map-get($tamañosTipo, tipografiaXXL);
+    }
+    .descripcionBanner {
+        font-size: map-get($tamañosTipo, tipografiaL);
+    }
 }

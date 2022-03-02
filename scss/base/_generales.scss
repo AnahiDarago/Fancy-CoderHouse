@@ -8,6 +8,9 @@
 .tituloEncabezado {
     @extend %tituloEncabezadoPagina;
 }
+.descripcionTitulo {
+    font-size: map-get($tamañosTipo, tipografiaS);
+}
 .subtituloProducto{
     @include subtituloProductoSecciones (28px, bold, $colorPrincipal);
 }
@@ -37,4 +40,12 @@
 
 .contenedorCard {
     border-radius: 12px;
+}
+@include mediaQueryTablet {
+    .tituloEncabezado {
+        font-size: map-get($tamañosTipo, tipografiaXL);
+    .descripcionTitulo {
+        font-size: map-get($tamañosTipo, tipografiaM );
+    }
+}
 }

@@ -1,5 +1,5 @@
 .tituloEncabezado {
-  font-size: 38px;
+  font-size: 28px;
   font-weight: bold;
   color: #3C3C3B; }
 
@@ -8,6 +8,9 @@
   display: flex;
   flex-direction: column;
   min-height: 100vh; }
+
+.descripcionTitulo {
+  font-size: 18px; }
 
 .subtituloProducto {
   font-size: 28px;
@@ -39,13 +42,23 @@
 .contenedorCard {
   border-radius: 12px; }
 
+@media only screen and (min-width: 700px) {
+  .tituloEncabezado {
+    font-size: 36px; }
+    .tituloEncabezado .descripcionTitulo {
+      font-size: 22px; } }
+
 header .nav-item {
   font-size: 22px;
   padding-left: 1%;
   padding-right: 1%; }
 
 header .marca {
-  width: 150px; }
+  width: 90px; }
+
+@media only screen and (min-width: 700px) {
+  header .marca {
+    width: 130px; } }
 
 .iconoFooter {
   font-size: 24px;
@@ -62,11 +75,11 @@ header .marca {
   margin-top: auto; }
 
 .tituloHUno {
-  font-size: 48px;
+  font-size: 32px;
   font-weight: bold; }
 
 .descripcionBanner {
-  font-size: 22px; }
+  font-size: 18px; }
 
 .imagenFondo {
   width: 100%;
@@ -83,17 +96,10 @@ header .marca {
 .macaronsRosa {
   width: 90%; }
 
-.descripcionTitulo {
-  font-size: 22px; }
-
 .contenedorFondoProductoCard {
   background-color: #FBFBFB;
   height: 200px; }
 
-/* .contenedorIconHome {
-    width: 100px;
-    background-color: rgb(75, 197, 197);
-} */
 .iconHome {
   width: 150px; }
 
@@ -110,6 +116,12 @@ header .marca {
 
 .imagenEstrellas {
   width: 150px; }
+
+@media only screen and (min-width: 700px) {
+  .tituloHUno {
+    font-size: 48px; }
+  .descripcionBanner {
+    font-size: 24px; } }
 
 .imagenTeHebras {
   width: 70%; }

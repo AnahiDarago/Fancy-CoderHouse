@@ -2,7 +2,7 @@ $colorPrincipal:#3C3C3B;
 $colorAcento:#D6A418;
 
 %tituloEncabezadoPagina {
-    font-size: 38px;
+    font-size: 28px;
     font-weight: bold;
     color: $colorPrincipal;
 }
@@ -15,9 +15,18 @@ $colorAcento:#D6A418;
 
 $tamañosTipo: (
     tipografiaXS: 14px,
+    tipografiaXSB: 16,
     tipografiaS: 18px,
     tipografiaM: 22px,
     tipografiaL: 24px,
     tipografiaLB: 28px,
+    tipografiaLC: 32px,
     tipografiaXL: 36px,
+    tipografiaXXL: 48px,
 );
+
+@mixin mediaQueryTablet {
+    @media only screen and (min-width: 700px) {
+        @content
+    }
+};
