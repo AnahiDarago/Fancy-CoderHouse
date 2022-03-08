@@ -8,17 +8,19 @@
             height: 50%;
         }
             .imagenProducto {
-            transform: translate(0%, -50%);
+            transform: translate(0%, -45%);
             }
         }
         .contenedorInfoProducto {
             .precioProducto {
                 font-size: map-get($tamañosTipo, tipografiaXS);
                 font-weight: bold;
+                color: $colorPrincipal;
             }
             .nombreProducto {
                 font-size: map-get($tamañosTipo , tipografiaS);
                 font-weight: bold;
+                color: $colorPrincipal;
             }
         }
     }
@@ -27,21 +29,24 @@
 .sectionPackDulzuras {
     .contenedorFondoProductoHorizontal {
         background-color: #FBFBFB;
-        height: 250px;
+        height: 210px;
     }
 }
 
 .contenedorInfoProductoDulzuras {
     .nombreProductoDulzuras {
-        font-size: map-get($tamañosTipo , tipografiaLB);
+        font-size: map-get($tamañosTipo , tipografiaM);
         font-weight: bold;
+        color: $colorPrincipal;
     }
     .descripcionProductoDulzuras {
-        font-size: map-get($tamañosTipo , tipografiaS);
+        font-size: map-get($tamañosTipo , tipografiaXS);
+        color: $colorPrincipal;
     }
     .precioProducto {
         font-size: map-get($tamañosTipo, tipografiaXS);
         font-weight: bold;
+        color: $colorPrincipal;
     }
 }
 
@@ -49,9 +54,29 @@
     .sectionCupcakePanificados {
         .contenedorFondoProducto{
             height: 270px;
+
+            .contenedorImagenProducto {
+                height: 50%;
+            }
+                .imagenProducto {
+                    transform: translate(0%, -50%);
+                }
+        }    
+    }
+    .contenedorInfoProductoDulzuras {
+        .nombreProductoDulzuras {
+            font-size: map-get($tamañosTipo , tipografiaLB);
+            font-weight: bold;
         }
-        .contenedorImagenProducto {
-            height: 20%;
+        .descripcionProductoDulzuras {
+            font-size: map-get($tamañosTipo , tipografiaS);
         }
     }
+    .sectionPackDulzuras {
+        .contenedorFondoProductoHorizontal {
+            background-color: #FBFBFB;
+            height: 250px;
+        }
+    }
+    
 }

@@ -1,7 +1,7 @@
 .tituloEncabezado {
   font-size: 28px;
   font-weight: bold;
-  color: #3C3C3B; }
+  color: #585858; }
 
 .body {
   font-family: 'Montserrat', sans-serif;
@@ -11,17 +11,17 @@
 
 .descripcionTitulo {
   font-size: 18px;
-  color: #3C3C3B; }
+  color: #585858; }
 
 .subtituloProducto {
-  font-size: 28px;
+  font-size: 24px;
   font-weight: bold;
-  color: #3C3C3B; }
+  color: #585858; }
 
 .tituloProductoTiendaEvento {
   font-size: 24px;
   font-weight: bold;
-  color: #3C3C3B; }
+  color: #585858; }
 
 .bottonVerMas {
   border-color: #D6A418;
@@ -41,11 +41,18 @@
 .productoDescripcion {
   font-size: 18px; }
 
+.colorTexto {
+  color: #585858; }
+
 @media only screen and (min-width: 700px) {
   .tituloEncabezado {
     font-size: 36px; }
   .descripcionTitulo {
-    font-size: 22px; } }
+    font-size: 22px; }
+  .subtituloProducto {
+    font-size: 32px;
+    font-weight: bold;
+    color: #585858; } }
 
 header .nav-item {
   font-size: 22px;
@@ -67,7 +74,7 @@ header .marca {
   color: white; }
 
 .fondoFooter {
-  background-color: #3C3C3B;
+  background-color: #585858;
   height: 100px; }
 
 .contenedorFooter {
@@ -153,36 +160,51 @@ header .marca {
   .sectionCupcakePanificados .contenedorFondoProducto .contenedorImagenProducto {
     height: 50%; }
   .sectionCupcakePanificados .contenedorFondoProducto .imagenProducto {
-    transform: translate(0%, -50%); }
+    transform: translate(0%, -45%); }
 
 .sectionCupcakePanificados .contenedorInfoProducto .precioProducto {
   font-size: 14px;
-  font-weight: bold; }
+  font-weight: bold;
+  color: #585858; }
 
 .sectionCupcakePanificados .contenedorInfoProducto .nombreProducto {
   font-size: 18px;
-  font-weight: bold; }
+  font-weight: bold;
+  color: #585858; }
 
 .sectionPackDulzuras .contenedorFondoProductoHorizontal {
   background-color: #FBFBFB;
-  height: 250px; }
+  height: 210px; }
 
 .contenedorInfoProductoDulzuras .nombreProductoDulzuras {
-  font-size: 28px;
-  font-weight: bold; }
+  font-size: 22px;
+  font-weight: bold;
+  color: #585858; }
 
 .contenedorInfoProductoDulzuras .descripcionProductoDulzuras {
-  font-size: 18px; }
+  font-size: 14px;
+  color: #585858; }
 
 .contenedorInfoProductoDulzuras .precioProducto {
   font-size: 14px;
-  font-weight: bold; }
+  font-weight: bold;
+  color: #585858; }
 
 @media only screen and (min-width: 700px) {
   .sectionCupcakePanificados .contenedorFondoProducto {
     height: 270px; }
-  .sectionCupcakePanificados .contenedorImagenProducto {
-    height: 20%; } }
+    .sectionCupcakePanificados .contenedorFondoProducto .contenedorImagenProducto {
+      height: 50%; }
+    .sectionCupcakePanificados .contenedorFondoProducto .imagenProducto {
+      transform: translate(0%, -50%); }
+  .contenedorInfoProductoDulzuras .nombreProductoDulzuras {
+    font-size: 28px;
+    font-weight: bold; }
+  .contenedorInfoProductoDulzuras .descripcionProductoDulzuras {
+    font-size: 18px; }
+  .sectionPackDulzuras .contenedorFondoProductoHorizontal {
+    background-color: #FBFBFB;
+    height: 250px; } }
 
 .descripcionContacto {
   font-size: 24px; }

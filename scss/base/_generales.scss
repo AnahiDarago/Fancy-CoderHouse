@@ -13,7 +13,7 @@
     color: $colorPrincipal;
 }
 .subtituloProducto{
-    @include subtituloProductoSecciones (28px, bold, $colorPrincipal);
+    @include subtituloProductoSecciones (24px, bold, $colorPrincipal);
 }
 
 .tituloProductoTiendaEvento {
@@ -39,6 +39,9 @@
 .productoDescripcion {
     font-size: map-get($tamañosTipo, tipografiaS);
 }
+.colorTexto {
+    color: $colorPrincipal;
+}
 
 @include mediaQueryTablet {
     .tituloEncabezado {
@@ -47,4 +50,8 @@
     .descripcionTitulo {
         font-size: map-get($tamañosTipo, tipografiaM );
     }
+    .subtituloProducto{
+        @include subtituloProductoSecciones (32px, bold, $colorPrincipal);
+    }
+    
 }
