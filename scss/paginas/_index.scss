@@ -10,9 +10,10 @@
 
 .imagenFondo {
     width: 100%;
-    background-image: url(../imagenes/fondoRosaDos.jpg);
+    background-image: url(../imagenes/fondoRosaCelu.jpg);
     background-size:contain;
     background-repeat: no-repeat;
+
 }
 .bgDorado {
     background-color: rgb(190, 167, 36);
@@ -29,6 +30,9 @@
     background-color: #FBFBFB;
     height: 200px;
 }
+.contenedorCard {
+    border-radius: 12px;
+}
 
 .iconHome {
     width: 150px;
@@ -38,21 +42,41 @@
     font-size: map-get($tamañosTipo, tipografiaS);
 }
 .imagenAvatar {
-    height: 230px;
-    transform: translate(0%, -50%);
+    height: 170px;
+    transform: translate(0%, -60%);
 }
 .descripcionAvatar {
-    font-size: map-get($tamañosTipo, tipografiaS);
+    font-size: map-get($tamañosTipo, tipografiaXS);
 }
 .imagenEstrellas {
-    width: 150px;
+    width: 100px;
+}
+.contenedorFondoAvatar {
+    background-color: #FBFBFB;
+    height: 250px;
+    border-radius: 12px;
 }
 
 @include mediaQueryTablet {
+    .imagenFondo {
+        background-image: url(../imagenes/fondoRosaDos.jpg);
+    }
     .tituloHUno {
         font-size: map-get($tamañosTipo, tipografiaXXL);
     }
     .descripcionBanner {
         font-size: map-get($tamañosTipo, tipografiaL);
+    }
+    .imagenAvatar {
+        height: 200px;
+    }
+    .contenedorFondoAvatar {
+        height: 250px;
+    }
+    .descripcionAvatar {
+        font-size: map-get($tamañosTipo, tipografiaS);
+    }
+    .imagenEstrellas {
+        width: 150px;
     }
 }

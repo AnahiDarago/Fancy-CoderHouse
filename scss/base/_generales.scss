@@ -38,14 +38,11 @@
     font-size: map-get($tamañosTipo, tipografiaS);
 }
 
-.contenedorCard {
-    border-radius: 12px;
-}
 @include mediaQueryTablet {
     .tituloEncabezado {
         font-size: map-get($tamañosTipo, tipografiaXL);
+    }
     .descripcionTitulo {
         font-size: map-get($tamañosTipo, tipografiaM );
     }
-}
 }

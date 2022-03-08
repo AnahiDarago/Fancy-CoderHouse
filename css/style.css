@@ -39,14 +39,11 @@
 .productoDescripcion {
   font-size: 18px; }
 
-.contenedorCard {
-  border-radius: 12px; }
-
 @media only screen and (min-width: 700px) {
   .tituloEncabezado {
     font-size: 36px; }
-    .tituloEncabezado .descripcionTitulo {
-      font-size: 22px; } }
+  .descripcionTitulo {
+    font-size: 22px; } }
 
 header .nav-item {
   font-size: 22px;
@@ -83,7 +80,7 @@ header .marca {
 
 .imagenFondo {
   width: 100%;
-  background-image: url(../imagenes/fondoRosaDos.jpg);
+  background-image: url(../imagenes/fondoRosaCelu.jpg);
   background-size: contain;
   background-repeat: no-repeat; }
 
@@ -100,6 +97,9 @@ header .marca {
   background-color: #FBFBFB;
   height: 200px; }
 
+.contenedorCard {
+  border-radius: 12px; }
+
 .iconHome {
   width: 150px; }
 
@@ -108,20 +108,35 @@ header .marca {
   font-size: 18px; }
 
 .imagenAvatar {
-  height: 230px;
-  transform: translate(0%, -50%); }
+  height: 170px;
+  transform: translate(0%, -60%); }
 
 .descripcionAvatar {
-  font-size: 18px; }
+  font-size: 14px; }
 
 .imagenEstrellas {
-  width: 150px; }
+  width: 100px; }
+
+.contenedorFondoAvatar {
+  background-color: #FBFBFB;
+  height: 250px;
+  border-radius: 12px; }
 
 @media only screen and (min-width: 700px) {
+  .imagenFondo {
+    background-image: url(../imagenes/fondoRosaDos.jpg); }
   .tituloHUno {
     font-size: 48px; }
   .descripcionBanner {
-    font-size: 24px; } }
+    font-size: 24px; }
+  .imagenAvatar {
+    height: 200px; }
+  .contenedorFondoAvatar {
+    height: 250px; }
+  .descripcionAvatar {
+    font-size: 18px; }
+  .imagenEstrellas {
+    width: 150px; } }
 
 .imagenTeHebras {
   width: 70%; }
@@ -131,9 +146,10 @@ header .marca {
 
 .sectionCupcakePanificados .contenedorFondoProducto {
   background-color: #FBFBFB;
-  height: 300px; }
+  height: 250px;
+  border-radius: 12px; }
   .sectionCupcakePanificados .contenedorFondoProducto .contenedorImagenProducto {
-    height: 120px; }
+    height: 50%; }
   .sectionCupcakePanificados .contenedorFondoProducto .imagenProducto {
     transform: translate(0%, -50%); }
 
@@ -159,6 +175,12 @@ header .marca {
 .contenedorInfoProductoDulzuras .precioProducto {
   font-size: 14px;
   font-weight: bold; }
+
+@media only screen and (min-width: 700px) {
+  .sectionCupcakePanificados .contenedorFondoProducto {
+    height: 270px; }
+  .sectionCupcakePanificados .contenedorImagenProducto {
+    height: 20%; } }
 
 .descripcionContacto {
   font-size: 24px; }
