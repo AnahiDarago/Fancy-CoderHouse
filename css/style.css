@@ -44,6 +44,13 @@
 .colorTexto {
   color: #585858; }
 
+.pruebaHover {
+  transition: 500ms; }
+
+.pruebaHover:hover {
+  transform: scale(1.1, 1.1);
+  z-index: 2; }
+
 @media only screen and (min-width: 700px) {
   .tituloEncabezado {
     font-size: 36px; }
@@ -207,13 +214,19 @@ header .marca {
     height: 250px; } }
 
 .descripcionContacto {
-  font-size: 24px; }
+  font-size: 18px; }
 
 #floatingTextarea {
   height: 100px; }
 
 .datosContacto {
-  font-size: 18px; }
+  font-size: 14px; }
+
+@media only screen and (min-width: 700px) {
+  .descripcionContacto {
+    font-size: 22px; }
+  .datosContacto {
+    font-size: 18px; } }
 
 .imagenBox {
   width: 80%;
