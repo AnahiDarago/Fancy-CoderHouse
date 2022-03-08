@@ -10,6 +10,7 @@
 }
 .descripcionTitulo {
     font-size: map-get($tamañosTipo, tipografiaS);
+    color: $colorPrincipal;
 }
 .subtituloProducto{
     @include subtituloProductoSecciones (28px, bold, $colorPrincipal);
@@ -18,6 +19,7 @@
 .tituloProductoTiendaEvento {
     font-size: 24px;
     font-weight: bold;
+    color: $colorPrincipal;
 }
 .bottonVerMas {
     border-color: $colorAcento;
