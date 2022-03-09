@@ -111,13 +111,14 @@ header .marca {
 
 .contenedorFondoProductoCard {
   background-color: #FBFBFB;
-  height: 200px; }
+  height: 170px;
+  width: 170px; }
 
 .contenedorCard {
   border-radius: 12px; }
 
 .iconHome {
-  width: 150px; }
+  width: 120px; }
 
 .descripcionIcon {
   font-weight: bold;
@@ -162,7 +163,7 @@ header .marca {
 
 .sectionCupcakePanificados .contenedorFondoProducto {
   background-color: #FBFBFB;
-  height: 250px;
+  height: 210px;
   border-radius: 12px; }
   .sectionCupcakePanificados .contenedorFondoProducto .contenedorImagenProducto {
     height: 50%; }
@@ -204,6 +205,14 @@ header .marca {
       height: 50%; }
     .sectionCupcakePanificados .contenedorFondoProducto .imagenProducto {
       transform: translate(0%, -50%); }
+  .sectionCupcakePanificados .contenedorInfoProducto .precioProducto {
+    font-size: 18px;
+    font-weight: bold;
+    color: #585858; }
+  .sectionCupcakePanificados .contenedorInfoProducto .nombreProducto {
+    font-size: 22px;
+    font-weight: bold;
+    color: #585858; }
   .contenedorInfoProductoDulzuras .nombreProductoDulzuras {
     font-size: 28px;
     font-weight: bold; }

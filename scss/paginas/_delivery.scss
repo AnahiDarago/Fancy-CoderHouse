@@ -1,7 +1,7 @@
 .sectionCupcakePanificados {
     .contenedorFondoProducto{
         background-color: #FBFBFB;
-        height: 250px;
+        height: 210px;
         border-radius: 12px;
         
         .contenedorImagenProducto {
@@ -62,6 +62,18 @@
                     transform: translate(0%, -50%);
                 }
         }    
+        .contenedorInfoProducto {
+            .precioProducto {
+                font-size: map-get($tamañosTipo, tipografiaS);
+                font-weight: bold;
+                color: $colorPrincipal;
+            }
+            .nombreProducto {
+                font-size: map-get($tamañosTipo , tipografiaM);
+                font-weight: bold;
+                color: $colorPrincipal;
+            }
+        }
     }
     .contenedorInfoProductoDulzuras {
         .nombreProductoDulzuras {
