@@ -4,3 +4,12 @@
 .imagenCafe {
     width: 100%;
 }
+
+.descripcionTexto {
+    font-size: map-get($tamañosTipo, tipografiaXSB); 
+}
+@include mediaQueryTablet {
+    .descripcionTexto {
+        font-size: map-get($tamañosTipo, tipografiaS);
+    }  
+}

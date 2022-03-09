@@ -161,6 +161,13 @@ header .marca {
 .imagenCafe {
   width: 100%; }
 
+.descripcionTexto {
+  font-size: 16; }
+
+@media only screen and (min-width: 700px) {
+  .descripcionTexto {
+    font-size: 18px; } }
+
 .sectionCupcakePanificados .contenedorFondoProducto {
   background-color: #FBFBFB;
   height: 210px;

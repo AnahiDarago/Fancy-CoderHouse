@@ -56,7 +56,7 @@
         font-size: map-get($tamañosTipo, tipografiaXL);
     }
     .descripcionTitulo {
-        font-size: map-get($tamañosTipo, tipografiaM );
+        font-size: map-get($tamañosTipo, tipografiaM);
     }
     .subtituloProducto{
         @include subtituloProductoSecciones (32px, bold, $colorPrincipal);
