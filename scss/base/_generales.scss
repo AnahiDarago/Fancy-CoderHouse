@@ -9,7 +9,7 @@
     @extend %tituloEncabezadoPagina;
 }
 .descripcionTitulo {
-    font-size: map-get($tamañosTipo, tipografiaS);
+    font-size: map-get($tamañosTipo, tipografiaXSB);
     color: $colorPrincipal;
 }
 .subtituloProducto{

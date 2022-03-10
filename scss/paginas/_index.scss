@@ -1,10 +1,10 @@
 .tituloHUno {
-    font-size:map-get($tamañosTipo, tipografiaLC);
+    font-size:map-get($tamañosTipo, tipografiaLB);
     font-weight: bold;
 }
 
 .descripcionBanner {
-    font-size:map-get($tamañosTipo, tipografiaS);
+    font-size:map-get($tamañosTipo, tipografiaXSB);
 }
 
 
@@ -28,20 +28,20 @@
 
 .contenedorFondoProductoCard {
     background-color: #FBFBFB;
-    height: 170px;
-    width: 170px;
+    height: 150px;
+    width: 150px;
 }
 .contenedorCard {
     border-radius: 12px;
 }
 
 .iconHome {
-    width: 120px;
+    width: 100px;
 
 }
 .descripcionIcon {
     font-weight: bold;
-    font-size: map-get($tamañosTipo, tipografiaS);
+    font-size: map-get($tamañosTipo, tipografiaXSB);
 }
 .imagenAvatar {
     height: 170px;
@@ -81,5 +81,17 @@
     }
     .imagenEstrellas {
         width: 150px;
+    }
+    .contenedorFondoProductoCard {
+        background-color: #FBFBFB;
+        height: 170px;
+        width: 170px;
+    }
+    .iconHome {
+        width: 120px;
+    }
+    .descripcionIcon {
+        font-weight: bold;
+        font-size: map-get($tamañosTipo, tipografiaS);
     }
 }

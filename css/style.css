@@ -1,5 +1,5 @@
 .tituloEncabezado {
-  font-size: 28px;
+  font-size: 24px;
   font-weight: bold;
   color: #585858; }
 
@@ -10,7 +10,7 @@
   min-height: 100vh; }
 
 .descripcionTitulo {
-  font-size: 18px;
+  font-size: 16;
   color: #585858; }
 
 .subtituloProducto {
@@ -67,7 +67,8 @@ header .nav-item {
   padding-right: 1%; }
 
 header .marca {
-  width: 90px; }
+  width: 90px;
+  margin-left: 5px; }
 
 @media only screen and (min-width: 700px) {
   header .marca {
@@ -88,11 +89,11 @@ header .marca {
   margin-top: auto; }
 
 .tituloHUno {
-  font-size: 32px;
+  font-size: 28px;
   font-weight: bold; }
 
 .descripcionBanner {
-  font-size: 18px; }
+  font-size: 16; }
 
 .imagenFondo {
   width: 100%;
@@ -111,18 +112,18 @@ header .marca {
 
 .contenedorFondoProductoCard {
   background-color: #FBFBFB;
-  height: 170px;
-  width: 170px; }
+  height: 150px;
+  width: 150px; }
 
 .contenedorCard {
   border-radius: 12px; }
 
 .iconHome {
-  width: 120px; }
+  width: 100px; }
 
 .descripcionIcon {
   font-weight: bold;
-  font-size: 18px; }
+  font-size: 16; }
 
 .imagenAvatar {
   height: 170px;
@@ -153,7 +154,16 @@ header .marca {
   .descripcionAvatar {
     font-size: 18px; }
   .imagenEstrellas {
-    width: 150px; } }
+    width: 150px; }
+  .contenedorFondoProductoCard {
+    background-color: #FBFBFB;
+    height: 170px;
+    width: 170px; }
+  .iconHome {
+    width: 120px; }
+  .descripcionIcon {
+    font-weight: bold;
+    font-size: 18px; } }
 
 .imagenTeHebras {
   width: 70%; }
