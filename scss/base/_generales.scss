@@ -9,15 +9,15 @@
     @extend %tituloEncabezadoPagina;
 }
 .descripcionTitulo {
-    font-size: map-get($tamañosTipo, tipografiaXSB);
+    font-size: 14px;
     color: $colorPrincipal;
 }
 .subtituloProducto{
-    @include subtituloProductoSecciones (24px, bold, $colorPrincipal);
+    @include subtituloProductoSecciones (18px, bold, $colorPrincipal);
 }
 
 .tituloProductoTiendaEvento {
-    font-size: 24px;
+    font-size: map-get($tamañosTipo, tipografiaXSB);
     font-weight: bold;
     color: $colorPrincipal;
 }
@@ -53,13 +53,15 @@
 
 @include mediaQueryTablet {
     .tituloEncabezado {
-        font-size: map-get($tamañosTipo, tipografiaXL);
+        font-size: map-get($tamañosTipo, tipografiaLB);
     }
     .descripcionTitulo {
-        font-size: map-get($tamañosTipo, tipografiaM);
+        font-size: map-get($tamañosTipo, tipografiaXSB);
     }
     .subtituloProducto{
-        @include subtituloProductoSecciones (32px, bold, $colorPrincipal);
+        @include subtituloProductoSecciones (22px, bold, $colorPrincipal);
     }
-    
+    .tituloProductoTiendaEvento {
+        font-size: map-get($tamañosTipo, tipografiaS);
+    }
 }

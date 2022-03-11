@@ -62,13 +62,13 @@
 
 @include mediaQueryTablet {
     .imagenFondo {
-        background-image: url(../imagenes/fondoRosaDos.jpg);
+        background-image: url(../imagenes/fondoRosaTres.jpg);
     }
     .tituloHUno {
         font-size: map-get($tamañosTipo, tipografiaXXL);
     }
     .descripcionBanner {
-        font-size: map-get($tamañosTipo, tipografiaL);
+        font-size: map-get($tamañosTipo, tipografiaS);
     }
     .imagenAvatar {
         height: 200px;
@@ -77,21 +77,21 @@
         height: 250px;
     }
     .descripcionAvatar {
-        font-size: map-get($tamañosTipo, tipografiaS);
+        font-size: 14px;
     }
     .imagenEstrellas {
         width: 150px;
     }
     .contenedorFondoProductoCard {
         background-color: #FBFBFB;
-        height: 170px;
-        width: 170px;
+        height: 150px;
+        width: 150px;
     }
     .iconHome {
-        width: 120px;
+        width: 100px;
     }
     .descripcionIcon {
         font-weight: bold;
-        font-size: map-get($tamañosTipo, tipografiaS);
+        font-size: map-get($tamañosTipo, tipografiaXS);
     }
 }

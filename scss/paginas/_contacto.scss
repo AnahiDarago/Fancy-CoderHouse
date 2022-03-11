@@ -1,17 +1,24 @@
 .descripcionContacto {
-    font-size: map-get($tamañosTipo, tipografiaS);
+    font-size: map-get($tamañosTipo, tipografiaXS);
 }
 #floatingTextarea {
     height: 100px;
 }
 .datosContacto {
-    font-size: map-get($tamañosTipo, tipografiaXS);
+    font-size: 12px;
 }
+.textoForm {
+    font-size: 14px;
+}
+
 @include mediaQueryTablet {
     .descripcionContacto {
-        font-size: map-get($tamañosTipo, tipografiaM);
+        font-size: map-get($tamañosTipo, tipografiaS);
     }
     .datosContacto {
-        font-size: map-get($tamañosTipo, tipografiaS);
+        font-size: map-get($tamañosTipo, tipografiaXSB);
+    }
+    .textoForm {
+        font-size: 16px;
     }
 }

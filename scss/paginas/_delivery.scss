@@ -12,13 +12,16 @@
             }
         }
         .contenedorInfoProducto {
+            .descripcionProducto {
+            font-size: 14px; 
+            }
             .precioProducto {
-                font-size: map-get($tamañosTipo, tipografiaXS);
+                font-size: 14px;
                 font-weight: bold;
                 color: $colorPrincipal;
             }
             .nombreProducto {
-                font-size: map-get($tamañosTipo , tipografiaS);
+                font-size: map-get($tamañosTipo , tipografiaXSB);
                 font-weight: bold;
                 color: $colorPrincipal;
             }
@@ -35,7 +38,7 @@
 
 .contenedorInfoProductoDulzuras {
     .nombreProductoDulzuras {
-        font-size: map-get($tamañosTipo , tipografiaM);
+        font-size: map-get($tamañosTipo , tipografiaS);
         font-weight: bold;
         color: $colorPrincipal;
     }
@@ -53,7 +56,7 @@
 @include mediaQueryTablet {
     .sectionCupcakePanificados {
         .contenedorFondoProducto{
-            height: 270px;
+            height: 250px;
 
             .contenedorImagenProducto {
                 height: 50%;
@@ -64,12 +67,12 @@
         }    
         .contenedorInfoProducto {
             .precioProducto {
-                font-size: map-get($tamañosTipo, tipografiaS);
+                font-size: map-get($tamañosTipo, tipografiaXS);
                 font-weight: bold;
                 color: $colorPrincipal;
             }
             .nombreProducto {
-                font-size: map-get($tamañosTipo , tipografiaM);
+                font-size: map-get($tamañosTipo , tipografiaXSB);
                 font-weight: bold;
                 color: $colorPrincipal;
             }
@@ -77,11 +80,11 @@
     }
     .contenedorInfoProductoDulzuras {
         .nombreProductoDulzuras {
-            font-size: map-get($tamañosTipo , tipografiaLB);
+            font-size: map-get($tamañosTipo , tipografiaM);
             font-weight: bold;
         }
         .descripcionProductoDulzuras {
-            font-size: map-get($tamañosTipo , tipografiaS);
+            font-size: map-get($tamañosTipo , tipografiaXSB);
         }
     }
     .sectionPackDulzuras {

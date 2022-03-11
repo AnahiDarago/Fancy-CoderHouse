@@ -1,15 +1,15 @@
 .imagenTeHebras {
-    width: 70%;
+    width: 80%;
 }
 .imagenCafe {
     width: 100%;
 }
 
 .descripcionTexto {
-    font-size: map-get($tamañosTipo, tipografiaXSB); 
+    font-size: 14px; 
 }
 @include mediaQueryTablet {
     .descripcionTexto {
-        font-size: map-get($tamañosTipo, tipografiaS);
+        font-size: map-get($tamañosTipo, tipografiaXS);
     }  
 }

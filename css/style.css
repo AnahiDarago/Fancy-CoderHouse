@@ -1,5 +1,5 @@
 .tituloEncabezado {
-  font-size: 24px;
+  font-size: 18px;
   font-weight: bold;
   color: #585858; }
 
@@ -10,16 +10,16 @@
   min-height: 100vh; }
 
 .descripcionTitulo {
-  font-size: 16;
+  font-size: 14px;
   color: #585858; }
 
 .subtituloProducto {
-  font-size: 24px;
+  font-size: 18px;
   font-weight: bold;
   color: #585858; }
 
 .tituloProductoTiendaEvento {
-  font-size: 24px;
+  font-size: 16px;
   font-weight: bold;
   color: #585858; }
 
@@ -53,16 +53,18 @@
 
 @media only screen and (min-width: 700px) {
   .tituloEncabezado {
-    font-size: 36px; }
+    font-size: 28px; }
   .descripcionTitulo {
-    font-size: 22px; }
+    font-size: 16px; }
   .subtituloProducto {
-    font-size: 32px;
+    font-size: 22px;
     font-weight: bold;
-    color: #585858; } }
+    color: #585858; }
+  .tituloProductoTiendaEvento {
+    font-size: 18px; } }
 
 header .nav-item {
-  font-size: 22px;
+  font-size: 16px;
   padding-left: 1%;
   padding-right: 1%; }
 
@@ -72,7 +74,7 @@ header .marca {
 
 @media only screen and (min-width: 700px) {
   header .marca {
-    width: 130px; } }
+    width: 110px; } }
 
 .iconoFooter {
   font-size: 24px;
@@ -93,7 +95,7 @@ header .marca {
   font-weight: bold; }
 
 .descripcionBanner {
-  font-size: 16; }
+  font-size: 16px; }
 
 .imagenFondo {
   width: 100%;
@@ -123,7 +125,7 @@ header .marca {
 
 .descripcionIcon {
   font-weight: bold;
-  font-size: 16; }
+  font-size: 16px; }
 
 .imagenAvatar {
   height: 170px;
@@ -142,41 +144,41 @@ header .marca {
 
 @media only screen and (min-width: 700px) {
   .imagenFondo {
-    background-image: url(../imagenes/fondoRosaDos.jpg); }
+    background-image: url(../imagenes/fondoRosaTres.jpg); }
   .tituloHUno {
     font-size: 48px; }
   .descripcionBanner {
-    font-size: 24px; }
+    font-size: 18px; }
   .imagenAvatar {
     height: 200px; }
   .contenedorFondoAvatar {
     height: 250px; }
   .descripcionAvatar {
-    font-size: 18px; }
+    font-size: 14px; }
   .imagenEstrellas {
     width: 150px; }
   .contenedorFondoProductoCard {
     background-color: #FBFBFB;
-    height: 170px;
-    width: 170px; }
+    height: 150px;
+    width: 150px; }
   .iconHome {
-    width: 120px; }
+    width: 100px; }
   .descripcionIcon {
     font-weight: bold;
-    font-size: 18px; } }
+    font-size: 14px; } }
 
 .imagenTeHebras {
-  width: 70%; }
+  width: 80%; }
 
 .imagenCafe {
   width: 100%; }
 
 .descripcionTexto {
-  font-size: 16; }
+  font-size: 14px; }
 
 @media only screen and (min-width: 700px) {
   .descripcionTexto {
-    font-size: 18px; } }
+    font-size: 14px; } }
 
 .sectionCupcakePanificados .contenedorFondoProducto {
   background-color: #FBFBFB;
@@ -187,13 +189,16 @@ header .marca {
   .sectionCupcakePanificados .contenedorFondoProducto .imagenProducto {
     transform: translate(0%, -45%); }
 
+.sectionCupcakePanificados .contenedorInfoProducto .descripcionProducto {
+  font-size: 14px; }
+
 .sectionCupcakePanificados .contenedorInfoProducto .precioProducto {
   font-size: 14px;
   font-weight: bold;
   color: #585858; }
 
 .sectionCupcakePanificados .contenedorInfoProducto .nombreProducto {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: bold;
   color: #585858; }
 
@@ -202,7 +207,7 @@ header .marca {
   height: 210px; }
 
 .contenedorInfoProductoDulzuras .nombreProductoDulzuras {
-  font-size: 22px;
+  font-size: 18px;
   font-weight: bold;
   color: #585858; }
 
@@ -217,42 +222,47 @@ header .marca {
 
 @media only screen and (min-width: 700px) {
   .sectionCupcakePanificados .contenedorFondoProducto {
-    height: 270px; }
+    height: 250px; }
     .sectionCupcakePanificados .contenedorFondoProducto .contenedorImagenProducto {
       height: 50%; }
     .sectionCupcakePanificados .contenedorFondoProducto .imagenProducto {
       transform: translate(0%, -50%); }
   .sectionCupcakePanificados .contenedorInfoProducto .precioProducto {
-    font-size: 18px;
+    font-size: 14px;
     font-weight: bold;
     color: #585858; }
   .sectionCupcakePanificados .contenedorInfoProducto .nombreProducto {
-    font-size: 22px;
+    font-size: 16px;
     font-weight: bold;
     color: #585858; }
   .contenedorInfoProductoDulzuras .nombreProductoDulzuras {
-    font-size: 28px;
+    font-size: 22px;
     font-weight: bold; }
   .contenedorInfoProductoDulzuras .descripcionProductoDulzuras {
-    font-size: 18px; }
+    font-size: 16px; }
   .sectionPackDulzuras .contenedorFondoProductoHorizontal {
     background-color: #FBFBFB;
     height: 250px; } }
 
 .descripcionContacto {
-  font-size: 18px; }
+  font-size: 14px; }
 
 #floatingTextarea {
   height: 100px; }
 
 .datosContacto {
+  font-size: 12px; }
+
+.textoForm {
   font-size: 14px; }
 
 @media only screen and (min-width: 700px) {
   .descripcionContacto {
-    font-size: 22px; }
+    font-size: 18px; }
   .datosContacto {
-    font-size: 18px; } }
+    font-size: 16px; }
+  .textoForm {
+    font-size: 16px; } }
 
 .imagenBox {
   width: 80%;
@@ -260,4 +270,4 @@ header .marca {
 
 .subtituloContiene {
   font-weight: bold;
-  font-size: 22px; }
+  font-size: 16px; }
